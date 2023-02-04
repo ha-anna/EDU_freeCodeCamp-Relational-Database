@@ -17,7 +17,7 @@ All project that I've completed and that are part of the FreeCodeCamp's Relation
 ### Links
 
 1. [Celestial Bodies Database]() (N/A) <br>
-2. [World Cup Database]() (N/A> <br>
+2. [World Cup Database]() (N/A) <br>
 3. [Salon Appointment Scheduler]() (N/A) <br>
 4. [Periodic Table Database]() (N/A) <br>
 5. [Number Guessing Game]() (N/A) <br>
