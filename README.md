@@ -1,4 +1,4 @@
-# Relational Database Course
+# Relational Database Course [Feb 2023]
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ All project that I've completed and that are part of the FreeCodeCamp's Relation
 
 ### Links
 
-1. [Celestial Bodies Database]() (N/A) <br>
+1. [Celestial Bodies Database](https://github.com/its-haanna/EDU_freeCodeCamp-Relational-Database/blob/main/universe.sql) <br>
 2. [World Cup Database]() (N/A) <br>
 3. [Salon Appointment Scheduler]() (N/A) <br>
 4. [Periodic Table Database]() (N/A) <br>
