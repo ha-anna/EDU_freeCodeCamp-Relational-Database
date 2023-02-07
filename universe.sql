@@ -265,41 +265,41 @@ ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.st
 -- Data for Name: galaxy; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.galaxy VALUES (1, 'The Milky Way', 100000, 'Home to humans, super big', NULL);
-INSERT INTO public.galaxy VALUES (2, 'abcdef', 12, NULL, false);
-INSERT INTO public.galaxy VALUES (3, 'abcde', 12, NULL, false);
-INSERT INTO public.galaxy VALUES (4, 'abcd', 12, NULL, false);
-INSERT INTO public.galaxy VALUES (5, 'abc', 12, NULL, false);
-INSERT INTO public.galaxy VALUES (6, 'ab', 12, NULL, false);
-INSERT INTO public.galaxy VALUES (7, 'a', 12, NULL, false);
+INSERT INTO public.galaxy VALUES (1, 'The Milky Way', 100000, 'Home to humans, super big', false);
+INSERT INTO public.galaxy VALUES (2, 'Andromeda Galaxy', 100000, 'Andromeda, which is shortened from "Andromeda Galaxy", gets its name from the area of the sky in which it appears, the constellation of Andromeda.', false);
+INSERT INTO public.galaxy VALUES (3, 'Antennae Galaxies', 100000, 'Appearance is similar to an insect`s antennae.', false);
+INSERT INTO public.galaxy VALUES (4, 'Backward Galaxy', 100000, 'It appears to rotate backwards, as the tips of the spiral arms point in the direction of rotation.', false);
+INSERT INTO public.galaxy VALUES (5, 'Black Eye Galaxy', 100000, 'It has a spectacular dark band of absorbing dust in front of the galaxy`s bright nucleus, giving rise to its nicknames of the "Black Eye" or "Evil Eye" galaxy.', false);
+INSERT INTO public.galaxy VALUES (6, 'Bode`s Galaxy', 100000, 'Named for Johann Elert Bode who discovered this galaxy in 1774.', false);
+INSERT INTO public.galaxy VALUES (7, 'Butterfly Galaxies', 100000, 'Looks are similar to a butterfly.', false);
 
 
 --
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (1, 'Moon', 238900, 1, NULL);
-INSERT INTO public.moon VALUES (3, 'yyyyyon', 1000, 1, true);
-INSERT INTO public.moon VALUES (4, 'Mtttttton', 1000, 1, true);
-INSERT INTO public.moon VALUES (5, 'rrrrMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (6, 'sdsdsMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (7, 'Mbbbbbon', 1000, 1, true);
-INSERT INTO public.moon VALUES (8, 'vvvvMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (9, 'ccvcvcvvMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (10, 'fggfgfMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (11, 'fghfhMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (12, 'safdafMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (13, 'dfdfdMon', 1000, 1, true);
-INSERT INTO public.moon VALUES (14, 'dfdfon', 1000, 1, true);
-INSERT INTO public.moon VALUES (15, 'fdn', 1000, 1, true);
-INSERT INTO public.moon VALUES (16, 'don', 1000, 1, true);
-INSERT INTO public.moon VALUES (17, 'dn', 1000, 1, true);
-INSERT INTO public.moon VALUES (18, 'cn', 1000, 1, true);
-INSERT INTO public.moon VALUES (19, 'v', 1000, 1, true);
-INSERT INTO public.moon VALUES (20, 'bn', 1000, 1, true);
-INSERT INTO public.moon VALUES (21, 'a', 1000, 1, true);
-INSERT INTO public.moon VALUES (22, 'an', 1000, 1, true);
-INSERT INTO public.moon VALUES (23, 'n', 1000, 1, true);
+INSERT INTO public.moon VALUES (1, 'Moon', 238900, 1, true);
+INSERT INTO public.moon VALUES (3, 'Titan', 1000, 5, true);
+INSERT INTO public.moon VALUES (4, 'Europa', 1000, 3, true);
+INSERT INTO public.moon VALUES (5, 'Ganymede', 1000, 3, true);
+INSERT INTO public.moon VALUES (6, 'Mimas', 1000, 5, true);
+INSERT INTO public.moon VALUES (7, 'Callisto', 1000, 3, true);
+INSERT INTO public.moon VALUES (8, 'Io', 1000, 3, true);
+INSERT INTO public.moon VALUES (9, 'Greip', 1000, 5, true);
+INSERT INTO public.moon VALUES (10, 'Phoebe', 1000, 5, true);
+INSERT INTO public.moon VALUES (11, 'Dione', 1000, 5, true);
+INSERT INTO public.moon VALUES (12, 'Methone', 1000, 5, true);
+INSERT INTO public.moon VALUES (13, 'Anthe', 1000, 5, true);
+INSERT INTO public.moon VALUES (14, 'Aegir', 1000, 5, true);
+INSERT INTO public.moon VALUES (15, 'Albiorix', 1000, 5, true);
+INSERT INTO public.moon VALUES (16, 'Kiviuq', 1000, 5, true);
+INSERT INTO public.moon VALUES (17, 'Iapetus', 1000, 5, true);
+INSERT INTO public.moon VALUES (18, 'Daphnis', 1000, 5, true);
+INSERT INTO public.moon VALUES (19, 'Hyperion', 1000, 5, true);
+INSERT INTO public.moon VALUES (20, 'Enceladus', 1000, 5, true);
+INSERT INTO public.moon VALUES (21, 'Epimetheus', 1000, 5, true);
+INSERT INTO public.moon VALUES (22, 'Adrastea', 1000, 3, true);
+INSERT INTO public.moon VALUES (23, 'Fornjot', 1000, 5, true);
 
 
 --
@@ -307,27 +307,27 @@ INSERT INTO public.moon VALUES (23, 'n', 1000, 1, true);
 --
 
 INSERT INTO public.planet VALUES (1, 'Earth', true, 510072000, 1);
-INSERT INTO public.planet VALUES (2, 'abcdefghijklmn', true, 5555, 1);
-INSERT INTO public.planet VALUES (3, 'abcdefghijklm', true, 5555, 1);
-INSERT INTO public.planet VALUES (4, 'abcdefghijkl', true, 5555, 1);
-INSERT INTO public.planet VALUES (5, 'abcdefghijk', true, 5555, 1);
-INSERT INTO public.planet VALUES (6, 'abcdefghij', true, 5555, 1);
-INSERT INTO public.planet VALUES (7, 'abcdefghi', true, 5555, 1);
-INSERT INTO public.planet VALUES (8, 'abcdefg', true, 5555, 1);
-INSERT INTO public.planet VALUES (9, 'abcdef', true, 5555, 1);
-INSERT INTO public.planet VALUES (10, 'abcde', true, 5555, 1);
-INSERT INTO public.planet VALUES (11, 'abcd', true, 5555, 1);
-INSERT INTO public.planet VALUES (12, 'abc', true, 5555, 1);
-INSERT INTO public.planet VALUES (13, 'ab', true, 5555, 1);
+INSERT INTO public.planet VALUES (2, 'Mars', true, 5555, 1);
+INSERT INTO public.planet VALUES (3, 'Jupiter', true, 5555, 1);
+INSERT INTO public.planet VALUES (4, 'Uranus', true, 5555, 1);
+INSERT INTO public.planet VALUES (5, 'Saturn', true, 5555, 1);
+INSERT INTO public.planet VALUES (6, 'Neptune', true, 5555, 1);
+INSERT INTO public.planet VALUES (7, 'Mercury', false, 5555, 1);
+INSERT INTO public.planet VALUES (8, 'Venus', false, 5555, 1);
+INSERT INTO public.planet VALUES (9, 'Kepler-69c', true, 5555, 1);
+INSERT INTO public.planet VALUES (10, 'Proxima Centauri b', true, 5555, 1);
+INSERT INTO public.planet VALUES (11, 'Kepler-20f', true, 5555, 1);
+INSERT INTO public.planet VALUES (12, 'Tau Ceti b', true, 5555, 1);
+INSERT INTO public.planet VALUES (13, 'Kepler-186f', true, 5555, 1);
 
 
 --
 -- Data for Name: random_data; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.random_data VALUES (1, 'ca', true);
-INSERT INTO public.random_data VALUES (2, 'ab', true);
-INSERT INTO public.random_data VALUES (3, 'ba', true);
+INSERT INTO public.random_data VALUES (1, 'There might be aliens somewhere', true);
+INSERT INTO public.random_data VALUES (2, 'One day Earth might be swallowed by a black hole.', true);
+INSERT INTO public.random_data VALUES (3, 'Sun revolves around Earth.', false);
 
 
 --
@@ -335,12 +335,12 @@ INSERT INTO public.random_data VALUES (3, 'ba', true);
 --
 
 INSERT INTO public.star VALUES (1, 'Sun', true, 1, NULL);
-INSERT INTO public.star VALUES (2, 'abcdefg', true, 1, true);
-INSERT INTO public.star VALUES (3, 'abcdef', true, 1, true);
-INSERT INTO public.star VALUES (4, 'abcde', true, 1, true);
-INSERT INTO public.star VALUES (5, 'abcd', true, 1, true);
-INSERT INTO public.star VALUES (6, 'abc', true, 1, true);
-INSERT INTO public.star VALUES (7, 'ab', true, 1, true);
+INSERT INTO public.star VALUES (2, 'Altair', true, 1, true);
+INSERT INTO public.star VALUES (3, 'Capella', true, 1, true);
+INSERT INTO public.star VALUES (4, 'Arcturus', true, 1, true);
+INSERT INTO public.star VALUES (5, 'Cor Caroli', true, 1, true);
+INSERT INTO public.star VALUES (6, 'Sirius', true, 1, true);
+INSERT INTO public.star VALUES (7, 'Castor', true, 1, true);
 
 
 --
